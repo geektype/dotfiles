@@ -1,5 +1,5 @@
 if [ ! -d "$HOME/.config/zsh" ]; then
-    mkdir "$directory"
+    mkdir $HOME/.config/zsh
     echo "Created ZSH directory at $HOME/.config/zsh"
 fi
 
@@ -10,7 +10,7 @@ echo "Stowing vim..."
 stow vim/
 
 if [ ! -d "$HOME/.config/tmux" ]; then
-    mkdir "$directory"
+    mkdir $HOME/.config/zsh
     echo "Created tmux directory at $HOME/.config/tmux"
 fi
 
