@@ -21,8 +21,8 @@ echo "Stowing iTerm2..."
 stow iterm2/
 
 
-ZDOTDIR="$HOME/.config/zsh"
-ZSH="$HOME/.config/zsh/ohmyzsh"
+export ZDOTDIR="$HOME/.config/zsh"
+export ZSH="$HOME/.config/zsh/ohmyzsh"
 
 echo "Installing OhMyZSH..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
