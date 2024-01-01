@@ -10,7 +10,7 @@ echo "Stowing vim..."
 stow vim/
 
 if [ ! -d "$HOME/.config/tmux" ]; then
-    mkdir $HOME/.config/zsh
+    mkdir $HOME/.config/tmux
     echo "Created tmux directory at $HOME/.config/tmux"
 fi
 
@@ -19,6 +19,10 @@ stow tmux/
 
 echo "Stowing iTerm2..."
 stow iterm2/
+
+
+ZDOTDIR="$HOME/.config/zsh"
+ZSH="$HOME/.config/zsh/ohmyzsh"
 
 echo "Installing OhMyZSH..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
