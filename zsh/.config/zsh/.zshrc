@@ -1,3 +1,5 @@
+if [ "$TMUX" = "" ]; then tmux; fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -113,6 +115,5 @@ export XDG_CONFIG_HOME=$HOME/.config
 alias zshcfg="vim $ZDOTDIR/.zshrc"
 alias tm="tmux"
 #alias vim="nvim"
-tmux
 
 [ -f "/Users/abdullah_u/.ghcup/env" ] && source "$HOME/.ghcup/env"
