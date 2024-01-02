@@ -116,4 +116,4 @@ alias zshcfg="vim $ZDOTDIR/.zshrc"
 alias tm="tmux"
 #alias vim="nvim"
 
-[ -f "/Users/abdullah_u/.ghcup/env" ] && source "$HOME/.ghcup/env"
+[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env"
