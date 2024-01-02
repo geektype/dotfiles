@@ -108,7 +108,7 @@ export PATH="$HOME/go/bin:${PATH}"
 
 export PICO_SDK_PATH=$HOME/pico/pico-sdk
 
-source $HOME/.docker/init-zsh.sh || true
+export PATH="$HOME/.docker/bin:$PATH"
 export XDG_CONFIG_HOME=$HOME/.config
 
 
