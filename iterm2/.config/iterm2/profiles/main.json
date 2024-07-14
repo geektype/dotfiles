@@ -101,7 +101,6 @@
     "Alpha Component" : 1,
     "Green Component" : 0.80000001192092896
   },
-  "Working Directory" : "\/Users\/abdullah_u",
   "Blinking Cursor" : false,
   "Space" : 0,
   "Sync Title" : false,
@@ -397,7 +396,6 @@
   "Use Non-ASCII Font" : false,
   "Use Custom Tab Title" : false,
   "Normal Font" : "HackNF-Regular 12",
-  "Guid" : "D3842BCE-85B1-4086-B5BD-E16EB20B7A70",
   "Link Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
