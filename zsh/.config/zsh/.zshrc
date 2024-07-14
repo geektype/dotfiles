@@ -61,7 +61,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 export SDKROOT="`xcrun --show-sdk-path`"
 
 
-NEOFETCH_FLAG_PATH="/private/tmp/neofetch/$(whoami)"
+NEOFETCH_FLAG_PATH="/private/tmp/$(whoami)/neofetch"
 NEOFETCH_FLAG="$NEOFETCH_FLAG_PATH/flag"
 
 if [[ -n $TMUX && ! -f $NEOFETCH_FLAG ]]; then
