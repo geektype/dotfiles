@@ -1,2 +1,3 @@
 #  ZSH secrets
 zsh/.config/zsh/secrets.sh
+**/external/
