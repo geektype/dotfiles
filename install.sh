@@ -17,8 +17,13 @@ fi
 echo "Stowing tmux..."
 stow tmux/
 
-echo "Stowing iTerm2..."
-stow iterm2/
+if [ ! -d "$HOME/.config/ghostty" ]; then
+    mkdir $HOME/.config/ghostty
+    echo "Created ghostty directory at $HOME/.config/tmux"
+fi
+
+echo "Stowing Ghostty..."
+stow ghostty/
 
 
 export ZDOTDIR="$HOME/.config/zsh"

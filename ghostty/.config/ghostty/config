@@ -1,0 +1,16 @@
+font-family = Hack Nerd Font
+font-size = 12
+theme = SeaShells
+cursor-style = block
+cursor-style-blink = false
+cursor-click-to-move = true
+mouse-hide-while-typing = true
+background-opacity = 0.8
+background-blur-radius = 20
+resize-overlay = always
+clipboard-trim-trailing-spaces = false
+# TODO: Enable key bind for quick position
+quick-terminal-position = center
+bold-is-bright = true
+auto-update = check
+shell-integration-features = no-cursor
