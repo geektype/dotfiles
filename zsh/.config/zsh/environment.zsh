@@ -3,6 +3,7 @@ export SDKROOT="`xcrun --show-sdk-path`"
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
+export PATH="$HOME/zig:$PATH"
 export PATH="$HOME/.docker/bin:$PATH"
 [ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env"
 
